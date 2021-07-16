@@ -1,0 +1,121 @@
+
+@media (max-width: 900px){
+    #page-home {
+        background-position-x: 73vw;
+        transition: 200ms;
+    }
+
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home main{
+        align-items: center;
+    }
+
+    #page-home header a {
+        position: absolute;
+        bottom: 48px;
+
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+    }
+
+    #page-create-point .field-group{
+        flex-direction: column;
+
+    }
+
+    #page-create-point .field-group .field + .field {
+        margin-left: 0;
+    }
+
+}
+
+@media (min-width: 900px){
+    #page-home {
+        transition: 200ms;
+    }
+}
+
+@media (max-width: 828px){
+    #page-create-point .items-grid {
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    #page-create-point form button {
+        margin-left: 10px;
+        transition: 100ms;
+    }
+}
+
+@media (max-width: 500px){
+    #page-create-point header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #page-create-point header a{
+        margin-top: 30px;
+    }
+
+    #page-create-point form {
+        margin-top: 16px;
+    }
+
+    #page-create-point .items-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #page-create-point form button {
+        width: 90%;
+    }
+
+    #page-create-point legend {
+        flex-direction: column;
+    }
+
+    #page-create-point legend span {
+        margin-top: 16px;
+    }
+
+    #page-create-point input, select {
+        width: 100%;
+    }
+
+    #page-search-results header {
+        flex-direction: column;
+    }
+
+    #page-search-results header a{
+        margin-top: 30px;
+    }
+
+    #page-search-results main {
+        margin-top: 16px;
+    }
+}
+
+@media (min-width: 829px){
+    #page-create-point form button{
+        transition: 100ms;
+    }
+    
+}
+
+@media (min-width: 1700px) {
+    #page-home {
+        background-position-x: 40vw;
+    }
+}
+
+@media (max-height: 760px) {
+    #page-home {
+        background-position-y: 200px;
+    }
+}
